@@ -25,8 +25,8 @@ const Home = () => {
                                 className="rounded-t-[15px]"
                             />
                         </div>
-                        <div className="px-[25px] pt-[40px] pb-[20px] md:px-[50px] md:py-[45px] flex flex-col items-center">
-                            <h1 className="text-[1.675rem] text-darkBlue">Order Summary</h1>
+                        <div className="px-[25px] pt-[40px] pb-[20px] md:px-[50px] md:py-[48px] flex flex-col items-center">
+                            <h1 className="text-[1.7rem] text-darkBlue">Order Summary</h1>
                             <p className="text-desaturatedBlue text-center my-[25px]">
                                 You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
                             </p>
@@ -52,7 +52,7 @@ const Home = () => {
                                     Proceed to Payment
                                 </button>
                             </div>
-                            <button className="mt-[15px] w-full rounded-[10px] py-[12px] font-bold tracking-[0.6px] transition-all text-desaturatedBlue hover:text-darkBlue">
+                            <button className="mt-[12px] w-full rounded-[10px] py-[12px] font-bold tracking-[0.6px] transition-all text-desaturatedBlue hover:text-darkBlue">
                                 Cancel Order
                             </button>
                         </div>
