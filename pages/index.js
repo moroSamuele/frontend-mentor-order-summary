@@ -17,7 +17,7 @@ const Home = () => {
 
             <div className="w-full flex justify-center items-center p-[20px]">
                 <div className="flex justify-center items-center">
-                    <div className="w-full md:w-[450px] bg-white rounded-[16px] flex flex-col">
+                    <div className="shadow-4xl w-full md:w-[450px] bg-white rounded-[16px] flex flex-col">
                         <div className="relative h-[160px] md:h-[220px]">
                             <Image
                                 src="/images/illustration-hero.svg"
@@ -25,12 +25,12 @@ const Home = () => {
                                 className="rounded-t-[15px]"
                             />
                         </div>
-                        <div className="px-[25px] pt-[40px] pb-[20px] md:p-[50px] flex flex-col items-center">
+                        <div className="px-[25px] pt-[40px] pb-[20px] md:px-[50px] md:py-[45px] flex flex-col items-center">
                             <h1 className="text-[1.675rem] text-darkBlue">Order Summary</h1>
                             <p className="text-desaturatedBlue text-center my-[25px]">
                                 You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
                             </p>
-                            <div className="rounded-[10px] bg-veryPaleBlue p-[20px] w-full flex justify-between">
+                            <div className="rounded-[10px] bg-veryPaleBlue py-[26px] px-[20px] w-full flex justify-between">
                                 <div className="flex space-x-[20px]">
                                     <div className="rounded-full relative w-[45px] h-[45px]">
                                         <Image
@@ -44,7 +44,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="flex items-center">
-                                    <a href="#" className="underline text-brightBlue transition-all hover:no-underline hover:text-hoverBrigthBlue">Change</a>
+                                    <a href="#" className="underline text-brightBlue transition-all hover:no-underline hover:text-hoverBrigthBlue text-[0.875rem]">Change</a>
                                 </div>
                             </div>
                             <div className="w-full shadow-3xl mt-[30px]">
