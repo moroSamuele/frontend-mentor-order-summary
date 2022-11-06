@@ -52,7 +52,7 @@ const Home = () => {
                                     Proceed to Payment
                                 </button>
                             </div>
-                            <button className="mt-[12px] w-full rounded-[10px] py-[12px] font-bold tracking-[0.6px] transition-all text-desaturatedBlue hover:text-darkBlue">
+                            <button className="mt-[14px] w-full rounded-[10px] py-[12px] font-bold tracking-[0.6px] transition-all text-desaturatedBlue hover:text-darkBlue">
                                 Cancel Order
                             </button>
                         </div>
